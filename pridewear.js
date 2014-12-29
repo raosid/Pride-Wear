@@ -186,7 +186,7 @@
 		}
 
 		var phone = document.forms["buy"]["phone"].value;
-		if(!(phone.length < 10)) {
+		if(phone.length < 10) {
 			result += "<br />Please enter a valid phone number."
 			
 		}
