@@ -1,0 +1,158 @@
+/*
+	Siddharth Rao
+	sidrao@uw.edu
+	Stylesheet for pride wear
+*/
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#bannerHeading {
+	font-size: 1.5em;
+	color: white;
+}
+
+#topbar {
+	background-color: black;
+	height: 45px;
+}
+
+#homeLink {
+	color: white;
+	text-decoration: none;
+}
+
+#content {
+	margin-top: 50px;
+	text-align: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto; 
+}
+
+#searchBox {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+}
+
+#navbar {
+	display: block;
+	height: 100px;
+}
+
+#inputbox {
+	width: 85%;
+	float: left;
+}
+
+
+#search {
+	float: right;
+}
+
+#searchresults {
+	margin-top: 50px;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	overflow: hidden;
+}
+
+.imagecontainer {
+	position: relative;
+	float: left;
+	width: 30%;
+	height: 300px;
+	margin: 1.5%;
+	margin-top: 20px;
+	margin-bottom: 40px;
+}
+
+.imageresult {
+	max-width:100%; 
+	max-height:100%;
+	vertical-align: top;
+	cursor: pointer;
+}
+
+#notification {
+	margin-top: 10px;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0px;
+    left: 42%;
+}
+
+.price {
+	text-align: center;
+}
+
+.picture {
+	width: 400px;
+	height: 400px;
+}
+
+#pictureBox {
+	float: left;
+}
+
+#userBuyForm {
+	width: 80%;
+	margin-left: 170px;
+	overflow: hidden;
+}
+
+#backbutton {
+	margin-left: 170px;
+	font-size: 15px;
+	display: none;
+	width: 100%;
+	margin-bottom: 35px;
+}
+
+#form {
+	display: none;
+	overflow: hidden;
+
+}
+
+#heading {
+	font-size: 34px;
+	margin-left: 25px;
+	margin-top: 0;
+}
+
+#orderbutton {
+	margin: 25px;
+	margin-left: 110px;
+}
+
+#errormessage {
+	display: none;
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+#finalmessage {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+#goHomeButton {
+	width: 30%;
+	margin-left: 35%;
+}
